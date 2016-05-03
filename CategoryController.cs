@@ -39,6 +39,15 @@ namespace RecruitmentApp.Controllers
          [ValidateAntiForgeryToken]
          public ActionResult Create([Bind(Include = "Id,Name,IsActive")] Category category)
          {
+             
+             
+             
+             
+             
+             
+             
+             
+             
              try
              {
                  if (ModelState.IsValid)
